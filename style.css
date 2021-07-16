@@ -67,23 +67,48 @@ th {
     text-align: right;
 }
 
-.paymentInformation {
-    float: right
-}
-
 .paymentBlock {
     margin-top: 150px;
+    height: 175px;
+}
+
+.paymentBlockLeft {
+    float: left;
+    width: 49%;
+    margin-right: 1%;
+    height: 100%;
+}
+
+.paymentBlockRight {
+    padding-left: 1%;
+    float: right;
+    width: 49%;
+    height: 100%;
+    border-left: 1px solid black;
 }
 
 .paymentQR {
+    float: right;
+    height: 100%;
+}
+
+.paymentInformation {
     float: left;
-    width: 150px;
-    height: 150px;
+    height: 100%;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
+.centerFlex {
+    display: -webkit-box;
+    -webkit-box-align: center;
 }
 
 img {
-    max-width:100%;
-    max-height:100%;
+    width: 150px;
+    height: 150px;
 }
 
 .highlight {

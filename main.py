@@ -1,13 +1,19 @@
 import pdfkit
 import qrcode
 
-iban = "BE29 0635 3471 5494"
-amount = 747
+workdays = 3
+rate = 235
+vat = 6
+name = "Antoine Cajot"
+iban = "BE29063534715464"
+bic = "GKCCBEBB"
+amount = (workdays * rate) * (1 + vat / 100)
 currency = "EUR"
-communication = "Payslip - Antoine Cajot - July"
+communication = "Payslip"
 
-img = qrcode.make(f'SPD*1.0*ACC:{iban}*AM:{amount}*CC:{currency}*MSG:{communication}')
-img.save("payqr.svg")
+sct_string = f'BCD\n002\n1\nSCT\n{bic}\n{name}\n{iban}\n{currency}{amount}\n\n\n{communication}\n'
+img = qrcode.make(sct_string)
+img.save("payqr.jpg")
 
 options = {
     'page-size': 'A4',
