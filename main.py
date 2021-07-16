@@ -7,18 +7,18 @@ import codecs
 
 details = {
     # Company information
-    'cpnName': "Antoine Cajot",
-    'cpnAddrLine1': "Le Haumont, 33,",
-    'cpnAddrLine2': "4650 Grand-Rechain",
+    'cpnName': "John Doe",
+    'cpnAddrLine1': "Rue de la Frite",
+    'cpnAddrLine2': "6969 Aubel",
     'cpnAddrLine3': "Belgium",
-    'cpnEmail': "antoinecajot@gmail.com",
-    'cpnPhone': "+32 470 695 160",
-    'cpnVat': "0770-412-107",
+    'cpnEmail': "john@doe.beer",
+    'cpnPhone': "+69 420 911 666",
+    'cpnVat': "11-11-11",
 
     # Client information
-    'cltName': "Odoo Belgium",
-    'cltAddrLine1': "Chaussée de Namur, 40",
-    'cltAddrLine2': "1367 Grand-Rosière",
+    'cltName': "Voodoo Belgium",
+    'cltAddrLine1': "Chaussée des Gascons, 69",
+    'cltAddrLine2': "6969 Hasselt",
     'cltAddrLine3': "Belgium",
 
     # Invoice information
@@ -26,12 +26,12 @@ details = {
     'invoiceDate': "28/07/21",
     'invoicePeriod': "05/07/21 - 28/07/21",
     'position': "Developer",
-    'workdays': 3,
-    'rate': 235,
+    'workdays': 20,
+    'rate': 745,
     'vatRate': 6,
 
     # Payment information
-    'iban': "BE29 0635 3471 5464",
+    'iban': "BE69 0644 3454 1307",
     'bic': "GKCCBEBB",
     'currency': "EUR",
 }
