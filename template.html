@@ -7,13 +7,13 @@
     <body>
         <div class="fullWidth overflowHidden">
             <div class="companyBlock">
-                <em>Antoine Cajot</em><br/>
-                Le Haumont, 33,<br/>
-                4650 Grand-Rechain<br/>
-                Belgium<br/>
-                <em>Email:</em> antoinecajot@gmail.com<br/>
-                <em>Phone:</em> +32 470 695 160<br/>
-                <em>VAT:</em> 0770-412-107
+                <em>$cpnName</em><br/>
+                $cpnAddrLine1<br/>
+                $cpnAddrLine2<br/>
+                $cpnAddrLine3<br/>
+                <em>Email:</em> $cpnEmail<br/>
+                <em>Phone:</em> $cpnPhone<br/>
+                <em>VAT: $cpnVat</em>
             </div>
         </div>
 
@@ -23,16 +23,16 @@
             </div>
 
             <div class="billTo">
-                Odoo Belgium<br/>
-                Chaussée de Namur, 40<br/>
-                1367 Grand-Rosière<br/>
-                Belgium
+                $cltName<br/>
+                $cltAddrLine1<br/>
+                $cltAddrLine2<br/>
+                $cltAddrLine3
             </div>
 
             <div class="numberAndPeriod">
-                <div class="invoiceNumber">Invoice 2021-01</div><br/>
-                <em>Date:</em> 28/07/21<br/>
-                <em>Period:</em> 05/07/21 - 28/07/21
+                <div class="invoiceNumber">Invoice $invoiceNumber</div><br/>
+                <em>Date:</em> $invoiceDate<br/>
+                <em>Period:</em> $invoicePeriod
             </div>
         </div>
 
@@ -44,24 +44,24 @@
                     <th>Daily Rate</th>
                 </tr>
                 <tr class="highlight lowerBorder">
-                    <td>Developer</td>
-                    <td>3</td>
-                    <td>€235</td>
+                    <td>$position</td>
+                    <td>$workdays</td>
+                    <td>$rate</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td class="alightRight">Subtotal</td>
-                    <td>€705</td>
+                    <td>$subtotal</td>
                 </tr>
                 <tr class="lowerBorder">
                     <td></td>
-                    <td class="alightRight">VAT (6%)</td>
-                    <td>€42.3</td>
+                    <td class="alightRight">VAT ($vatRate%)</td>
+                    <td>$computedVat</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td class="alightRight">Total</td>
-                    <td>€747.3</td>
+                    <td>$total</td>
                 </tr>
             </table>
         </div>
@@ -79,8 +79,8 @@
                     <div class="centerFlex fullHeight">
                         <div>
                             <div class="accent">Payment information:</div><br/>
-                            <em>IBAN:</em> BE29 0635 3471 5494<br/>
-                            <em>BIC:</em> GKCCBEBB<br/>
+                            <em>IBAN:</em> $iban<br/>
+                            <em>BIC:</em> $bic<br/>
                         </div>
                     </div>
                 </div>
