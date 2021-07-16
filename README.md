@@ -19,7 +19,7 @@ pip3 install pdfkit
 
 ## Customizing
 
-Adapt template.html and style.css to your needs, keeping in mind that wkhtmltopdf can be fickle with recent CSS since it does not yet use the latest version of Qt WebKit. You can add more fields in the template by adding them both in the details dictionary in `main.py` as well as referring them in `template.html`.
+Adapt `template.html` and `style.css` to your needs, keeping in mind that wkhtmltopdf can be fickle with recent CSS since it does not yet use the latest version of Qt WebKit. You can add more fields in the template by adding them both in the details dictionary in `main.py` as well as referring them in `template.html`.
 
 ## Example output
 
