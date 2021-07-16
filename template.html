@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="fullWidth overflowHidden">
+            <div class="companyBlock">
+                <em>$cpnName</em><br/>
+                $cpnAddrLine1<br/>
+                $cpnAddrLine2<br/>
+                $cpnAddrLine3<br/>
+                <em>Email:</em> $cpnEmail<br/>
+                <em>Phone:</em> $cpnPhone<br/>
+                <em>VAT: $cpnVat</em>
+            </div>
+        </div>
+
+        <div class="fullWidth overflowHidden invoiceDetails">
+            <div class="billTo">
+                <div class="accent">Bill to:</div>
+            </div>
+
+            <div class="billTo">
+                $cltName<br/>
+                $cltAddrLine1<br/>
+                $cltAddrLine2<br/>
+                $cltAddrLine3
+            </div>
+
+            <div class="numberAndPeriod">
+                <div class="invoiceNumber">Invoice $invoiceNumber</div><br/>
+                <em>Date:</em> $invoiceDate<br/>
+                <em>Period:</em> $invoicePeriod
+            </div>
+        </div>
+
+        <div>
+            <table>
+                <tr class="lowerBorder">
+                    <th>Function</th>
+                    <th>Workdays</th>
+                    <th>Daily Rate</th>
+                </tr>
+                <tr class="highlight lowerBorder">
+                    <td>$position</td>
+                    <td>$workdays</td>
+                    <td>$rate</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="alightRight">Subtotal</td>
+                    <td>$subtotal</td>
+                </tr>
+                <tr class="lowerBorder">
+                    <td></td>
+                    <td class="alightRight">VAT ($vatRate%)</td>
+                    <td>$computedVat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="alightRight">Total</td>
+                    <td>$total</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="fullWidth overflowHidden paymentBlock">
+            <div class="paymentBlockLeft">
+                <div class="paymentQR">
+                    <div class="centerFlex fullHeight">
+                        <img src="payqr.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="paymentBlockRight">
+                <div class="paymentInformation">
+                    <div class="centerFlex fullHeight">
+                        <div>
+                            <div class="accent">Payment information:</div><br/>
+                            <em>IBAN:</em> $iban<br/>
+                            <em>BIC:</em> $bic<br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+    

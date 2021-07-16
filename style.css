@@ -1,0 +1,116 @@
+.fullWidth {
+    width: 100%;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.companyBlock {
+    float: right;
+}
+
+.billTo {
+    float: left;
+    margin-left: 15px;
+}
+
+.numberAndPeriod {
+    float: right;
+    margin-right: 15px;
+}
+
+.invoiceDetails {
+    border-bottom: 1px solid black; 
+    margin-bottom: 150px;
+    padding-bottom: 10px;
+    border-top: 1px solid black; 
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 1.15em;
+}
+
+.accent {
+    display: inline;
+    color: rgb(165, 28, 48);
+    font-weight: bold;
+}
+
+.invoiceNumber {
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 1.15em;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+.lowerBorder {
+    border-bottom: 1px solid black;
+}
+
+th {
+    font-weight: bold;
+}
+
+.alightRight {
+    text-align: right;
+}
+
+.paymentBlock {
+    margin-top: 150px;
+    height: 175px;
+}
+
+.paymentBlockLeft {
+    float: left;
+    width: 49%;
+    margin-right: 1%;
+    height: 100%;
+}
+
+.paymentBlockRight {
+    padding-left: 1%;
+    float: right;
+    width: 49%;
+    height: 100%;
+    border-left: 1px solid black;
+}
+
+.paymentQR {
+    float: right;
+    height: 100%;
+}
+
+.paymentInformation {
+    float: left;
+    height: 100%;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
+.centerFlex {
+    display: -webkit-box;
+    -webkit-box-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.highlight {
+    background-color: #e9e9e9;
+}
