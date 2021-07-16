@@ -1,0 +1,91 @@
+.fullWidth {
+    width: 100%;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.companyBlock {
+    float: right;
+}
+
+.billTo {
+    float: left;
+    margin-left: 15px;
+}
+
+.numberAndPeriod {
+    float: right;
+    margin-right: 15px;
+}
+
+.invoiceDetails {
+    border-bottom: 1px solid black; 
+    margin-bottom: 150px;
+    padding-bottom: 10px;
+    border-top: 1px solid black; 
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 1.15em;
+}
+
+.accent {
+    display: inline;
+    color: rgb(165, 28, 48);
+    font-weight: bold;
+}
+
+.invoiceNumber {
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 1.15em;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+.lowerBorder {
+    border-bottom: 1px solid black;
+}
+
+th {
+    font-weight: bold;
+}
+
+.alightRight {
+    text-align: right;
+}
+
+.paymentInformation {
+    float: right
+}
+
+.paymentBlock {
+    margin-top: 150px;
+}
+
+.paymentQR {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.highlight {
+    background-color: #e9e9e9;
+}
