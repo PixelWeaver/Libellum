@@ -1,7 +1,7 @@
 # Libellum
 
 Tiny script to generate invoices for independent contractors leveraging wkhtmltopdf.
-This script was only tested with Python 3. The payment QR it includes complies with the SEPA Credit transfer guidelines established by the [European Payments Council](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2018-05/EPC069-12%20v2.1%20Quick%20Response%20Code%20-%20Guidelines%20to%20Enable%20the%20Data%20Capture%20for%20the%20Initiation%20of%20a%20SCT.pdf).
+This script was only tested with Python 3. The payment QR it includes complies with the SEPA Credit Transfer guidelines established by the [European Payments Council](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2018-05/EPC069-12%20v2.1%20Quick%20Response%20Code%20-%20Guidelines%20to%20Enable%20the%20Data%20Capture%20for%20the%20Initiation%20of%20a%20SCT.pdf).
 
 ## Installation
 
